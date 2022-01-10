@@ -1,0 +1,389 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+background-color: rgb(96, 96, 185);
+padding: 1em 0;
+}
+header h1{
+color: floralwhite;
+font-size: 2.5em;
+font-style: italic;
+font-weight: 100;
+display: inline-block;
+position: relative;
+bottom: 15px;
+}
+nav{
+background-color: rgb(179, 137, 179);
+margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li{
+display: inline-block;
+width: 16.3%;
+}
+nav ul li a{
+color: whitesmoke;
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: rgb(110, 72, 79);
+}
+footer{
+background-color:rgb(96, 96, 185);
+clear: both;
+color: thistle;
+padding: 3em 0;
+margin-top: 2em;
+text-align: center;
+}
+nav ul li a.activo{
+    background-color: rgb(110, 72, 79);  
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+h2{
+    color: rgb(96, 96, 185);
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.homeimg{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.homeimg img{
+    border-radius: 0.2em;
+    width: 50%;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 1em;
+}
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+background: gainsboro;
+padding: 1em;
+
+}
+.testimonio .cita{
+font-weight: bold;
+font-style: italic;
+font-size: 1.4em;
+display:block;
+
+}
+.testimonio .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+.funcionamiento{
+    padding-top: 0em;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.funcionamiento{
+    width: 20%;
+    /*border: 1px solid gray;
+    border-radius: 0.25em;*/
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+   
+    }
+.funcionamiento h2{
+    color: rgb(96, 96, 185);
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.comienzo h2{
+    padding-top: 4em;
+    color: rgb(96, 96, 185);
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+/*Fin de home************************/
+/* inicio de nosotros*/
+
+.historia p{
+font-size: 0.8em;
+}
+.personas{
+    overflow: hidden;
+}
+.persona{
+width: 18%;
+border: 1px solid gray;
+border-radius: 0.25em;
+float: left;
+margin-left: 2.25%;
+box-sizing: border-box;
+}
+.persona{
+    text-align: center;
+}
+.persona img{
+border-radius: 50%;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+margin: 0.8em 0 1em;
+max-width: 70%;
+}
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: royalblue;
+    margin: 0%;
+}
+.persona h5{
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+.persona h6{
+    font-size: 0.7em;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+.persona p{
+    font-size: 0.7em;
+    color: grey;
+    margin: 0 1em 1em;
+}
+.persona:first-child{
+    margin-left: 0;
+}
+.personas{
+    overflow: hidden;
+}
+/*Fin nosotros********************/
+/*Inicio servicios*/
+.servicio{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.servicio .info{
+    width: 65%;
+}
+.servicio .info h4{
+    color: gray;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5em;
+}
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.servicio img{
+    border-radius: 0.8em;
+    width: 30%;
+}
+.servicio:nth-child(even) .info{
+    float: left;
+}
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+/*Fin de servicios************/
+/*Inicio categorias*/
+.categorias{
+    overflow: hidden;
+}
+.categoria{
+width: 18%;
+/*border: 1px solid gray;
+border-radius: 0.25em;*/
+float: left;
+margin-left: 1.25%;
+/*box-sizing: border-box;*/
+}
+.categoria{
+    text-align: center;
+}
+.categoria .foto img{
+border-radius: 1em;
+margin: 0.8em 0 1em;
+width: 9em;
+height: 7em;
+max-width: 100%;
+align-items: center;
+overflow: hidden;
+
+
+
+}
+.categoria h5{
+    text-align: center;
+    font-weight: normal;
+    color: royalblue;
+    margin: 0%;
+}
+.categoria h5{
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.categoria p{
+    font-size: 0.7em;
+    color: grey;
+    margin: 0 1em 1em;
+}
+.categoria:first-child{
+    margin-left: 0;
+}
+.categorias{
+    overflow: hidden;
+}
+.categoria .foto{
+padding: 0.3em;
+position: relative;
+/*border: 1px solid;*/
+box-sizing: border-box;
+/*border-radius: 2em;*/
+margin: 0;
+}
+
+
+
+.categoria .foto:hover{
+   
+cursor: pointer;
+transition: all 0.8s ease;
+opacity: 1;
+}
+
+.txt{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /*margin-bottom: 0.5em;*/ 
+    color:rgb(243, 237, 239); 
+    line-height: 1em;
+    border: 4px solid white; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+}
+.foto .txt{  
+   position: absolute;
+   top: 15%;
+   left: 18%;
+   width: 60%;
+   height: 60%;
+  padding-bottom: 5%;
+ /* background: rgba(62, 56, 56, 0.4);*/
+
+    display: flex;
+    flex-direction: column;
+   
+	align-items: center;
+	justify-content: center;
+	transition: opacity 0.45s;  
+    opacity: 0;
+}
+
+.foto img:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(80%);
+}
+.foto .txt:hover{  
+    opacity: 1;
+    
+  }
+/*Fin de categorias****************/
+/* Inicio contacto*/
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+.columna.left{
+    border-right: 1px solid gray;
+}
+.columna.right p{
+    font-size: 0.9em;
+}
+.columna.right ul li{
+    font-size: 0.8em;
+}
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+.formulario input, .formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 90%;
+}
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+
+}
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+.formulario .acciones{
+    text-align: center;
+}
